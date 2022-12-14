@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'frontend/css/style.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="{% static 'frontend/js/createForm.js' %}" defer></script>
+    <script src="{% static 'frontend/js/sendPostReq.js' %}"></script>
+    <title>Avocado-ML</title>
+</head>
+
+<body>
+    <center>
+        <div id="body">
+            <form class="form" id="form">
+                <div class="title">Welcome to Avocado-ML!</div>
+                <div class="subtitle">Enter your info</div>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

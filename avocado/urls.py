@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from backend import views as back
+from frontend import views as front
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api', back.calculate_price),
+    path('', front.index)
 ]
