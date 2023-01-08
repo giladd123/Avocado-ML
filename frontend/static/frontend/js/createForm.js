@@ -1,16 +1,10 @@
-inputs = [{
-    name: "total_volume", value: "number"
-},
-{ name: "type_4046", value: "number" },
-{ name: "type_4225", value: "number" },
-{ name: "type_4770", value: "number" },
-{ name: "total_bags", value: "number" },
-{ name: "small_bags", value: "number" },
-{ name: "large_bags", value: "number" },
-{ name: "XL_bags", value: "number" },
-{ name: "type", value: "text" },
-{ name: "year", value: "number" },
-{ name: "region", value: "text" }
+inputs = [
+    { name: "small_bags", value: "number" },
+    { name: "large_bags", value: "number" },
+    { name: "XL_bags", value: "number" },
+    { name: "type", value: "text" },
+    { name: "year", value: "number" },
+    { name: "region", value: "text" }
 ]
 
 
